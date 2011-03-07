@@ -1,0 +1,82 @@
+/* CSS file */
+Button.annotationButton 
+{
+    upSkin: Embed("/assets/skins/salamander/assets/images/annotations_up.png");
+	overSkin: Embed("/assets/skins/salamander/assets/images/annotations_over.png");
+	downSkin: Embed("/assets/skins/salamander/assets/images/annotations_down.png");
+}
+
+Button.annotationOffButton 
+{
+    upSkin: Embed("/assets/skins/salamander/assets/images/annotations_off_up.png");
+	overSkin: Embed("/assets/skins/salamander/assets/images/annotations_off_over.png");
+	downSkin: Embed("/assets/skins/salamander/assets/images/annotations_off_over.png");
+}
+
+Button.embedButton 
+{
+    upSkin: Embed("/assets/skins/salamander/assets/images/embed_up.png");
+	overSkin: Embed("/assets/skins/salamander/assets/images/embed_over.png");
+	downSkin: Embed("/assets/skins/salamander/assets/images/embed_down.png");
+}
+
+Button.playButton 
+{
+    fillColors: #4c4b4b,#4c4b4b,#4c4b4b,#4c4b4b;
+    fillAlphas: 0.7,0.7,0.7,0.7;
+}
+
+VBox.pdfAnnotation
+{
+	backgroundAlpha: 0.5;
+	backgroundColor: #e5e696;
+	cornerRadius: 10;
+	borderColor: #f4f660;
+	borderStyle: solid;
+}
+
+VBox.textAnnotation
+{
+	backgroundAlpha: 0.75;
+	backgroundColor: #64b9f4;
+	cornerRadius: 10;
+	borderColor: #8ea3df;
+	borderStyle: solid;
+}
+
+VBox.graphicAnnotation
+{
+	backgroundAlpha: 0.5;
+	backgroundColor: #f47c64;
+	cornerRadius: 10;
+	borderColor: #d55e5e;
+	borderStyle: solid;
+}
+
+VBox.linkAnnotation
+{
+	backgroundAlpha: 0.5;
+	backgroundColor: #b664f4;
+	cornerRadius: 10;
+	borderColor: #a478b3;
+	borderStyle: solid;
+}
+
+VBox.videoAnnotation
+{
+	backgroundAlpha: 0.5;
+	backgroundColor: #64F478;
+	cornerRadius: 10;
+	borderColor: #78B386;
+	borderStyle: solid;
+}
+
+VBox.annotationBackground
+{
+	backgroundImage: Embed("/assets/skins/salamander/assets/images/bg.png");
+}
+
+HBox.scrubberBackground
+{
+	backgroundImage: Embed("/assets/skins/salamander/assets/images/scrubber_bg.png");
+}
